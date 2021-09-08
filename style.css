@@ -134,3 +134,15 @@
     opacity: 1;
     pointer-events: auto;
   }
+  @media screen  and (min-width:480px) {
+    .wrapper{
+      background: rgb(187, 35, 119);
+      color:cornsilk
+    }
+    @media screen and (max-width: 760px) {
+      .wrapper{
+        margin-top: 65px;
+        background-color: rgb(233, 228, 153);
+      }
+    }
+  }
